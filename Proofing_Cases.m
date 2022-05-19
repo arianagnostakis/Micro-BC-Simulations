@@ -10,7 +10,7 @@
 clear
 labels = {};
       
-      #The reference setup: Arduino Nano 33 48MHz reaching 2.46 CoreMark®/MHz
+      #The reference setup: Arduino Nano 33 48MHz reaching 2.46 CoreMarkÂ®/MHz
       #Considering single-thread execution we get a total of 2.46 * 48 overall CPU capacity(=c).
       #1 ms execution time delivers c*10^-3 Coremark equivalent power in the ref. CPU
       #Thus the capacity is calculated by the formula:
@@ -51,8 +51,7 @@ labels = {};
       #Taddexternal = 28;
       TaddexternalLoad=28*RefCPUloadms;
       Taddexternal=TaddexternalLoad/CPUloadms;
-      #Tclient = Ttransmission+Tverify+Thash+Tsign+Tcopy+(0.5*Tsc_Success+0.5*Tsc_Failure);
-      
+          
       
       HAT= 5.00 #minimum local events frequency supported by the realm to achieve maximum (W=N-1) witnesses. #Time interval in millis among Local events on a Node (ms)
 
