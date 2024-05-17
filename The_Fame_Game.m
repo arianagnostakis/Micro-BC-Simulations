@@ -1,9 +1,9 @@
 #April 2021 Aris Anagnostakis
 #IoT micro-Blockchain modeling of cluster behavior 
-#after Jan 26 2021 Notes and Scketch Jan_23
+#Code for octave and Matlab after Jan 26 2021 Notes and Scketch Jan_23 https://github.com/arianagnostakis/IoT_Blockchain
 #all times as benchmarked in milliseconds
-#building the Fame Game relying on the Witness Protocol
-#Proving that for known N there is a maximum in in the total points that can be gathered in the system.  
+#building the Fame Game relying on the Witness Protocol of the IoT microBlockchain that can be found in the link above.
+#Proving that for known N there is a maximum in the total points that can be gathered in the system.  
 #Every rational player will eventually find the right combination of w and Tevents (HAT) that maximizes its' points, 
 #given that they all share the same strategy. (Pclient/Pserver is common).
 
